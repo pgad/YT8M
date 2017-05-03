@@ -1,0 +1,22 @@
+{
+    "META": {
+        "AUTHOR": "samtenka",
+        "CHANGED": "2017-05-03",
+        "CREATED": "2017-05-03",
+        "DESCR": "Unified config file for data preprocessing, architecture, training, and testing.",
+    },
+    "DATA": {
+        "NB_CLASSES": 4716,
+        "NB_FRAMES": 100,
+        "NB_FEATS": 1152,
+        "X": "../Data/X.npy",
+        "Y": "../Data/Y.npy",
+    },
+    "TRAIN": {
+        "CHECKPOINT": "../Checkpoints/tagger.ckpt",
+        "LEARNING_RATE": 0.0005,
+        "NB_STEPS": 1001,
+        "BATCH_SIZE": 128,
+    },
+    "VERBOSE": 0,
+}
